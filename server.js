@@ -5,13 +5,15 @@ const bodyParser = require('body-parser');
 const cors = require('cors');
 const path = require('path');
 
+app.use(express.static(path.join(__dirname, 'public')));
+
 app.use(cors());
 // Set up middleware and routes
 app.use(express.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, 'contact.html'));
+    res.sendFile(path.join(__dirname, 'public', 'contact.html'));
 
 })
 
