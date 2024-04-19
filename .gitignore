@@ -1,0 +1,45 @@
+# Dependency directories
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Environment variables
+.env
+
+# Build artifacts
+build/
+client/build/
+
+# Log files
+*.log
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
+
+# Cache and compiled files
+*.swp
+*.swo
+*.swn
+*.pyc
+*.pyo
+*.dll
+*.exe
+*.obj
+*.o
+*.a
+*.so
+*.dylib
+*.class
+*.psd
+
+# OS generated files
+ehthumbs.db
+Icon?
+Desktop.ini
